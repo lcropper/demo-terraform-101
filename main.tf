@@ -1,5 +1,6 @@
 terraform {
-  required_version = ">= 0.12.0"
+  # MODIFY this line to look for 2.27.0 or greater
+  version = ">= 2.27.0"
 }
 
 provider "aws" {
